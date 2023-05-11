@@ -4,7 +4,7 @@ site_description: General info
 use_directory_urls: false
 
 theme:
-  name:material
+  name: material
   language: de
   features:
     - navigation.tabs
