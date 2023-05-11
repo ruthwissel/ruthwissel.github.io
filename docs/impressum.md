@@ -5,6 +5,8 @@ hide:
 
 # Impressum
 
+alles gut
+
 ## Datenschutzerklärung
 
 ## Disclaimer
