@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # Links
 
 Hier eine kleine Sammlung
@@ -8,3 +13,5 @@ Hier eine kleine Sammlung
 - [Hospizverein A`bg](https://www.hospizgruppe-aschaffenburg.de)
 - [Betreuungsstelle Landkreis Aschaffenburg](https://www.landkreis-aschaffenburg.de/wer-macht-was/gesund-soziales/sozialesundseni/betreuungsstell/)
 - [Betreuungsverein A´bg](https://www.skf-aschaffenburg.de)
+
+--8<-- "emailme.md"

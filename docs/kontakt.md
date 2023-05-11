@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # Kontakt
 
-Schreiben sie mir [ein email](mailto:ruth.wissel@outlook.de).
+--8<-- "emailme.md"
