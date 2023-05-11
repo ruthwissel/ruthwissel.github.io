@@ -1,0 +1,77 @@
+site_name: Ruth Wissel
+site_url: https://ruthwissel.github.io
+site_description: General info
+use_directory_urls: false
+
+theme:
+  name:material
+  language: de
+  features:
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.top
+    - navigation.instant
+    - search.highlight
+    - search.share
+    - search.suggest
+  #custom_dir: theme_overrides/
+  icon:
+    repo: fontawesome/brands/github
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: favicon.ico
+
+# Markdown Extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  #- pymdownx.snippets:
+  #    base_path:
+  #      - "docs/.snippets"
+  - footnotes
+
+# Copyright
+copyright: >-
+  Copyright &copy; 2023, Ruth Wissel -
+  <a href="#__consent">Change cookie settings</a>
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ruthwissel/ruthwissel.github.io
+  version:
+    provider: mike
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    actions:
+      - accept
+      - manage
+
+# Repository
+repo_url: https://github.com/ruthwissel/ruthwissel.github.io
+repo_name: ruthwissel.github.io
+edit_uri: edit/main/docs
+
+# Customization
+#extra_css:
+#  - /ruthwissel.github.io/assets/css/ruth_style.css
+
+plugins:
+  - search
+  - awesome-pages
+  - section-index
+  - tags
+  - markdownextradata: {}
